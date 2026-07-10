@@ -1,0 +1,59 @@
+FORM
+
+
+#INPUT
+
+<form>
+
+    <label>  NAME  </label>
+    <input type=" "   value=" "            />          type -  text/email/number/radio/checkbox/file/date
+                                                       value - Auto Fills the specified Value.
+    :
+    : 
+
+</form>
+
+Note - If using Radio button so after closing the tag Specify the Option Name to Display 
+        eg.<input type="Radio" id="gender" />Male
+
+     - It is Ideal to consider these options in same name if need to be selected only one Out of them. ids can be different
+        eg.        <input type="Radio" id="male" name="gender" />Male
+        <input type="Radio" id="female" name="gender"/>Female
+
+#TEXTAREA
+
+<form>
+    <textarea type="text" placeholder="   "  rows= "" cols = ""></textarea> 
+
+    :
+    :
+
+</form>
+
+#SELECT 
+<form>
+
+    <select>
+
+        <option>        </option>
+        :
+        :
+
+    </select>
+</form>
+#BUTTON
+
+<button type="submit">Submit</button>    
+<button type="reset">Reset</button>
+<button type="button"Button</button>
+
+
+
+Hw- Create a FORM
+    LEARN about CSS.
+
+
+Learning While Creating Form:
+1.Using Select as Option When Using <select> So that It won't Reveal First Option.
+2.Like other Forms do ask the Confirmation Checkbox at Last
+3.Using date for dob

@@ -1,0 +1,39 @@
+#NAME ATTRIBUTE OF INPUT
+<input type=" " name="  ">
+
+
+- This Shows the Value of the input into webpage url.
+
+
+#URL ENCODING
+if we enter special characters in the URL,it converts it into its ascii code number like %40 is for @.
+
+
+
+#SCRIPT TAG - After body tag before html closing tag
+
+We declared the function and printed the value in console
+
+Also added onclick attribute on Button tag in which we enter the function name.
+
+
+
+#CSS
+
+3 types of Styling
+
+1.Inline Styling - 
+<p style = "color:red;> </p> 
+
+2.Internal
+
+3.External
+
+#LINKING CSS
+Now to link the css file with the html 
+use
+<link rel="  " href="   ">    rel - Relation -[icon/code/stylesheet]
+
+
+<link rel="icon" href = "path" >
+

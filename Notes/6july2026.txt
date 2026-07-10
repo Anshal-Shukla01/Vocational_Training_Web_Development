@@ -1,0 +1,71 @@
+#NESTED LIST
+
+
+<ul>
+    <li>
+        <dl>(description List)
+            <dt>Veggies</dt>(Description term)
+                <dd>tomatoes</dd>(Description Detail)
+                <dd>onion</dd>
+                <dd>potato</dd>
+        </dl>
+    </li>
+
+</ul>
+
+
+Note - To add comment in html use <!--Comment-->
+
+#TABLES
+
+<table>
+    <tr>(table row  1)          (tr - table row)
+        <th> (heading)  </th>   (th - table head)  
+    </tr>
+    
+    <tr>(table row 2 - data)
+        <td> (data) </td>       (td - table data)
+    </tr>
+        :
+        :
+        :
+</table>
+
+#STYLING THE BORDER (ADDING GRID TO TABLE) 
+
+(Done inside Head Portion)
+
+    1.(Adds Border to table)
+    <style>
+        table{
+            border: 1px solid black;
+        }
+    </style>
+
+    2.(Adds box around table head also)
+    
+    <style>
+        table,th{
+            border: 1px solid black;
+        }
+    </style>
+
+    3.(Adds box around table data also)
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+   
+   4.(Remove Spaces and completes the Table)
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+    5.Since to add different styling to different table we used class 
+    like in table , th and td tags we added class ="Name" and used .Name while declaring in Style section 
+
+    As in code we gave another table name as "Table1", th of that table as "heading" , and tds of that table as "cell"

@@ -1,0 +1,44 @@
+#BACKGROUND IMAGE
+
+Inside Style Tag or Style file
+background-image:url(" ---- ");
+
+#BACKGROUND REPEAT
+
+-Remove the background repetition
+        background-repeat: no-repeat;
+-Repeat Vertically
+        background-repeat: repeat-y;
+-Repeat Horizontally
+        background-repeat: repeat-x; 
+
+
+#BACKGROUND SIZE
+       1. background-size:cover;  - fills in the overall container .
+       2. background-size:contain;  - fits in the container. 
+
+
+#BACKGROUND POSITION
+    
+    background-position : center;
+    - To Not Align in Center but to position it 
+    background-position : --alignment-- --size--px;
+Layering:
+
+
+ |        ----- : text
+ |
+ |        ----- : background image
+ |
+ |     ----- : background color
+ V
+
+ HW- Promotional Card
+
+Anchor Tag Should be Used , 3 different CSS files to be used.
+
+ Home - Promotional Site 
+ 
+ About -  
+
+ Contact - Email , Contact 

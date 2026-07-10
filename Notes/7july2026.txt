@@ -1,0 +1,54 @@
+BLOCK ELEMENT
+
+1. <div>
+            [Provides empty container/section to start]
+            [Auto Tag Break]
+    </div>
+
+
+2. <p>
+
+
+    </p>
+
+
+INLINE ELEMENTS
+<span> [COmes in Same line untill the screen width 
+wont fill]
+
+
+CLASS & ID
+
+
+- While Styling
+        class - denoted by .
+        id - denoted by #
+     
+- While defining
+        class - class="  "
+        id - id=" "
+
+
+IFRAME - to open the website inside our website
+
+<iframe>
+src = "      "
+height = "       "
+width = "       "
+allowfullscreen = "       "
+
+
+</iframe>
+
+PADDING & Magin
+
+Padding is used to provide and equl space from all dimensions inside the container
+Margin is used to provide and equl space from all dimensions outside the container
+
+
+padding: 5px
+margin : 5px
+
+
+
+Hw - 

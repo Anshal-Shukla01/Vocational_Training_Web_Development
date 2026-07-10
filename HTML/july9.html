@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <label>Name:</label>
+    <input type="text" name="Name"/>
+    <br/><br/>
+     <button type="submit" onclick="Showname()">Submit</button><br/>
+</form>
+</body>
+<script>
+    function Showname(){
+        const name = document.getElementById("Name").value;
+        console.log(name);
+    }
+</script>
+</html>
