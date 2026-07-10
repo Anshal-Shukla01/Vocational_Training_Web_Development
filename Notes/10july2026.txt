@@ -30,7 +30,7 @@ Layering:
  |
  |        ----- : background image
  |
- |     ----- : background color
+ |        ----- : background color
  V
 
  HW- Promotional Card
