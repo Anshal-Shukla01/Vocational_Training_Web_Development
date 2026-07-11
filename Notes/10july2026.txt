@@ -42,3 +42,18 @@ Anchor Tag Should be Used , 3 different CSS files to be used.
  About -  
 
  Contact - Email , Contact 
+
+Learning from HomeWork :-
+Today I learnt Numerous Things:-
+        1.Learned how to access the Image/File on Different FIle 
+                eg.<link rel="icon" href="../Images/hotel_Favicon.png"> [Using ..]
+        
+        2.We could directly apply the styles on different tags like h1.
+
+        3.Transparency could be added using this technique :    
+
+         background-image: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)),
+                              url('../Images/Ananda_Imperial_Lawn.png');
+
+                [Further need to be Explored]
+
