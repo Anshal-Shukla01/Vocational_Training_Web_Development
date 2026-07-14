@@ -6,3 +6,6 @@ in div style position:absolute ;
              bottom :  #px
              right : #px
 in parent div if relative is given then with respect to it the inner div  
+
+
+z-index : -1
