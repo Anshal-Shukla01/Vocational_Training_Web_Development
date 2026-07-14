@@ -11,9 +11,14 @@ in div style position:absolute ;
              right : #px
 in parent div if relative is given then with respect to it the inner div  
 3.Sticky - Even after scrolling down it will stick at top . and gets normal when you scroll up.
+
+eg. <div style="position: sticky; top: 10px;background-color: blueviolet;">
+
+
 4.FIxed - it remains fixed even after 
  - positioning should also be given like top,bottom , etc.
-eg. <div style="position: sticky; top: 10px;background-color: blueviolet;">
+
+ 
 z-index : -1   - image piche chale jaata h.
 
                - used in layering
