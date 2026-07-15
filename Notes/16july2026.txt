@@ -3,3 +3,12 @@ To put the Div containers side by side we use flex DISPLAY
 display :flex;      //Gap between the DIVs and Empty Spaces is maintained
         :inline;    //No Gap is maintained 
         :inline-block   // It wont supress inline spacing and  sends 
+
+
+
+inline - Since li is also block element.
+    so it puts all the elements in list side by side
+
+
+
+block -Converts the side by side list into block type nature.
