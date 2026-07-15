@@ -16,4 +16,6 @@ block -Converts the side by side list into block type nature.
 
 #Centering the PArent Div.
 
-Just add justify-content : center to the parent and display : flex 
+Just add justify-content : center to the parent and display : flex  // this would horizontically center the div
+
+note - adding the align-item : center , this would vertically center the div.
