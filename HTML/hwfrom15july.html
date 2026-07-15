@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrom Board</title>
+    <style>
+        .PlayArea1{
+            background-color: blanchedalmond ;height:740px; width:740px;
+            border-style: solid;
+            border-width: 50px;
+            position:relative;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .Pockets{
+            background-color: white;height:45px;width:45px;
+            border-radius: 50%;
+            position:absolute
+        }
+        #Pocket1{
+            top:0%; 
+            left:0%;     
+        }
+        #Pocket2{
+            top: 0%;
+            right:0%;
+        }
+        #Pocket3{
+            bottom:0%;
+            left:0%;
+        }
+        #Pocket4{
+            bottom:0%;
+            right:0%;
+        }
+        .OuterCenterCircle{
+            height: 170px;
+            width: 170px;
+            border-style: solid;
+            border-radius: 50%;
+            border-width: 2px; 
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+        }
+        .InnerCenterCircle{
+            background-color: red;
+            height: 32px;
+            width:32px;
+            border-radius: 50%;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            
+            
+
+
+        }
+        .BaseLine{
+            border-style: solid;
+            height:32px;
+            width:470px;    
+            position: absolute;
+        }
+        #BaseLine1{
+            align-items: center;
+            top:0px;
+        }
+        #BaseLine2{
+            align-items: center;
+            bottom:0px;
+        }
+        #BaseLine3{
+            left:0%;
+        }
+        #BaseLine4{
+            bottom:0%;
+        }
+    </style>
+</head>
+<body>
+    <!--Considering 1cm as 100px-->
+    <div class="PlayArea1">
+            <div class="Pockets" id="Pocket1"></div>
+            <div class="Pockets" id="Pocket2"></div>
+            <div class="Pockets" id="Pocket3"></div>
+            <div class="Pockets" id="Pocket4"></div>
+            <div class="OuterCenterCircle"></div> 
+            <div class="InnerCenterCircle"></div>
+            <div class="BaseLine id="BaseLine1"></div>
+            <div class="BaseLine id="BaseLine2"></div>
+            <div class="BaseLine id="BaseLine3"></div>
+            <div class="BaseLine id="BaseLine4"></div>
+            
+            
+ </div>
+</body>
+</html>
