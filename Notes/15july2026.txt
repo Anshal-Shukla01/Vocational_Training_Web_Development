@@ -12,3 +12,8 @@ inline - Since li is also block element.
 
 
 block -Converts the side by side list into block type nature.
+
+
+#Centering the PArent Div.
+
+Just add justify-content : center to the parent and display : flex 
