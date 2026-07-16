@@ -36,3 +36,14 @@ In style
 
      --Styling Property--
 }
+
+
+#PSEUDO CLASS 
+
+1.Hover Property
+.class{
+    -styling-
+}
+.class:hover{
+    -styling diffeent from it-
+}
