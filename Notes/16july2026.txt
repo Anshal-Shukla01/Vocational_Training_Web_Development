@@ -41,9 +41,25 @@ In style
 #PSEUDO CLASS 
 
 1.Hover Property
-.class{
+.classname{
     -styling-
 }
-.class:hover{
-    -styling diffeent from it-
+.classname:hover{
+    -styling different from it-
+}
+
+
+
+
+.classname:active{
+    -styling different from it-
+}
+.classname:focused{
+    -styling different from it-
+}
+.classname:visited{
+    -styling different from it-
+}
+.classname:link{
+    -styling different from it-
 }
