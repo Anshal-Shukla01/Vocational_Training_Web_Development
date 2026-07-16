@@ -8,12 +8,13 @@
         .Test1 p{
             color:red;
         }
-        .Test2+p{
+        .Test2~p{
             color:blue;
         }
     </style>
 </head>
 <body>
+    <p>Upper Text</p>
     <div class="Test1">
         <p>Text - 1</p>
         <div>
@@ -28,7 +29,8 @@
         </div>
         <p>Text - 3</p>
     </div>
-    <p> Outside of All Div</p>
+    <p> Outside of All Div-1</p>
+    <p> Outside of All Div-2</p>
     
 </body>
 </html>

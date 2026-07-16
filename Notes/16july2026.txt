@@ -22,8 +22,17 @@ In style
      --Styling Property--
 }
 
-3.Sibling Combinator 
+3.Sibling Combinator - INstead of that class it adds to its sibling but not after it.
+          |
+          V
 .classname+tag{
+     --Styling Property--
+}
+
+4.Subsequent Sibling Combinator - It adds the styling to all the siblings i.e. all below that class.
+           |
+           V
+ .classname~tag{
 
      --Styling Property--
 }
