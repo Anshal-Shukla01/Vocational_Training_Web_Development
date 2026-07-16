@@ -4,7 +4,7 @@
 In style 
 
 
-Descendent COMBINATOR
+1.Descendent Combinator - Reflects to all the tags inside the class.
           |
           v
 .classname tag{
@@ -13,10 +13,17 @@ Descendent COMBINATOR
 }
 
 
-Child COMBINATOR
+2.Child Combinator - Observed : It doesnt reflected the color to the child div of it.Applied to direct Child only.
+
           |
           V
 .classname>tag{
+
+     --Styling Property--
+}
+
+3.Sibling Combinator 
+.classname+tag{
 
      --Styling Property--
 }
