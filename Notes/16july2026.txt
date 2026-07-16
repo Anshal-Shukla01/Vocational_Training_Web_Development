@@ -1,0 +1,22 @@
+#COMBINATOR
+
+
+In style 
+
+
+Descendent COMBINATOR
+          |
+          v
+.classname tag{
+
+     --Styling Property--
+}
+
+
+Child COMBINATOR
+          |
+          V
+.classname>tag{
+
+     --Styling Property--
+}
