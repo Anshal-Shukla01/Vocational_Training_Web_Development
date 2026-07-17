@@ -1,0 +1,107 @@
+ .PlayArea1{
+            background-color: blanchedalmond ;height:740px; width:740px;
+            border-style: solid;
+            border-width: 50px;
+            position:relative;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .Pockets{
+            background-color: white;height:45px;width:45px;
+            border-radius: 50%;
+            position:absolute
+        }
+        #Pocket1{
+            top:0%; 
+            left:0%;     
+        }
+        #Pocket2{
+            top: 0%;
+            right:0%;
+        }
+        #Pocket3{
+            bottom:0%;
+            left:0%;
+        }
+        #Pocket4{
+            bottom:0%;
+            right:0%;
+        }
+        .OuterCenterCircle{
+            height: 170px;
+            width: 170px;
+            border-style: solid;
+            border-radius: 50%;
+            border-width: 2px; 
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+        }
+        .InnerCenterCircle{
+            background-color: red;
+            border-style:solid;
+            border-width:5px;
+            height: 32px;
+            width:32px;
+            border-radius: 50%;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+        }
+        .VerticalBaseLine{
+            border-style: solid;
+            border-radius: 32px;
+            height:32px;
+            width:470px;    
+            position: absolute;
+            justify-content: center;
+        }
+        .HorizontalBaseLine{
+            border-style: solid;
+            border-radius: 32px;
+            height:470px; 
+            width: 32px;  
+            position: absolute;
+        }
+        #BaseLine1{
+            top:13%;
+        }
+        #BaseLine2{
+            bottom:13%;
+        }
+        #BaseLine3{
+            left:13%;
+        }
+        #BaseLine4{
+            right:13%;
+        }
+        .BaseLineOuterCircle{
+            border-style:solid;
+            border-width:2px;
+            height:32px;width: 32px;
+            border-radius: 50%;
+            position:absolute;
+                justify-content: center;align-items: center;display: flex;
+                    
+        }
+        .BaseLineInnerCircle{
+            background-color:red;
+            border-style:solid;
+            border-width:2px;
+            height:24px;width: 24px;
+            border-radius: 50%;
+            position:absolute;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #Circle1{
+            top:0%;   
+            left:0%;
+        }
+        #Circle2{
+            bottom:0%;
+            right:0%;
+        }
