@@ -49,17 +49,19 @@ In style
 }
 
 
+tag:hover{
+    -styling different from it-
+}
 
-
-.classname:active{
+tag:active{
     -styling different from it-
 }
-.classname:focused{
+tag:focused{
     -styling different from it-
 }
-.classname:visited{
+tag:visited{
     -styling different from it-
 }
-.classname:link{
+tag:link{
     -styling different from it-
 }
