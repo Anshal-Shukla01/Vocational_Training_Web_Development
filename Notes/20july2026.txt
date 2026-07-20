@@ -8,8 +8,8 @@
 1.Text Pseudo Elements
 
     ::first-line
-    ::first-word
-    
+    ::first-letter
+
 
 
 2.Content Pseudo  Elements
