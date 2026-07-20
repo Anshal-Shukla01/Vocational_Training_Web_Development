@@ -12,4 +12,10 @@
 
 
 
-2.Content Pseudo  Elements
+2.Content Pseudo  Elements (Div,P)
+
+    ::before
+    ::after
+    ::marker
+    ::backdrop
+    ::selection

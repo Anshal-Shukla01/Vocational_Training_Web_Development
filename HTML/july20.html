@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
     <style>
-        p::first-line{
+        /* p::first-line{
             background-color: aquamarine;
             color: azure;
         }
         p::first-letter{
             font-size: 30px;
             background-color: brown;   
-        }
+        } */
+         p::before{
+            content: "🦚";
+         }
+         p::after{
+            content:"🙂";
+         }
     </style>
 </head>
 <body>
