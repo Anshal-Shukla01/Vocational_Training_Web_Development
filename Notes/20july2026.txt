@@ -1,0 +1,15 @@
+#PSEUDO ELEMENT
+
+: - Pseudo class
+:: - Pseudo Elements
+
+
+
+1.Text Pseudo Elements
+
+    ::first-line
+    ::first-word
+    
+
+
+2.Content Pseudo  Elements
