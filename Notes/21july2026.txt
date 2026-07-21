@@ -1,3 +1,23 @@
 #Adding Image before 
 
 To add new image before the content url should be used.
+
+li::marker{
+            color: blue;
+
+        }
+
+::selection{
+            background-color: red;
+            color:khaki;
+
+         }
+
+
+
+Class of Dialog
+ |
+ V
+.ClosingDialog::backdrop{
+            background-color: powderblue;
+          }
