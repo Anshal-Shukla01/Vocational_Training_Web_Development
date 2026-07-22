@@ -15,3 +15,7 @@ repeating-linear-gradient(color1,color2 %, color3 %,...)
 3.Radial Gradient:
 
 background-image: radial-gradient(color1,color2,... );
+
+4.Repeating Radial Gradient:
+
+repeating-linear-gradient(color1,color2 %, color3 %,...)
