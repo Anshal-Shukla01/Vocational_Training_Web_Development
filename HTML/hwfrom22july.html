@@ -1,0 +1,73 @@
+<!-- Homework: Create a Beach Poster Using CSS Gradients
+
+Create a beautiful Beach Poster using only CSS Gradients (do not use any images).
+
+Requirements:
+
+Sky → Use Linear Gradient
+
+Sea (Water) → Use Radial Gradient
+
+Beach (Sand) → Use Conic Gradient (or any suitable gradient if you feel another gradient looks better)
+
+
+Instructions:
+
+Create the poster using HTML & CSS only.
+
+Divide the poster into three sections: Sky, Sea, and Beach.
+
+Use different colors to make the poster look attractive.
+
+Add a title like "Welcome to the Beach" or "Summer Vibes" (optional).
+
+Do not use any background images. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Beach</title>
+    <style>
+        body{
+            justify-content: center;
+            display:flex;
+        }
+        img{
+            height:642px;
+            width:595px;
+        }
+        .Poster{
+            height:642px;
+            width:595px;
+            background-color: aqua;
+            
+        }
+        .Sky{
+            height:250px;
+            width:auto;
+            background-image: linear-gradient(to top,LightSkyBlue,SkyBlue,DeepSkyBlue);
+        }
+        .Sea{
+            background-image: radial-gradient(farthest-corner at 65% 60%,#78F1F7,#00A4F8,#0341A1);
+            height: 222px;
+            width:auto;
+        }
+        .Sand{
+            height: 170px;
+            width:auto;
+             background-image:conic-gradient(#01A5F8 20deg, #E0DCD1 135deg, #E9D4CF 160deg,#F8D2B6 180deg, #E0DCD1 200deg ,#E0DCD1 225deg,#01A5F8 340deg);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="Poster">
+    <div class="Sky"> Sky  </div>
+    <div class="Sea">Sea </div>
+    <!-- <div class="Seabottom">SeaBottom</div> -->
+    <div class="Sand">Sand</div>
+    </div>
+    <img src="../Images/welcome_famous_painting.jpg" title="Majnu Bhai Famous Painting">
+</body>
+</html>
