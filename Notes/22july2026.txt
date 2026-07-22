@@ -1,2 +1,9 @@
 #PRIORITY
 As we know the class styling is prioritised over global styling so to get global styling to be implemented !important is used after a space in the end of styling.
+
+
+#GRADIENT
+
+1.Linear Gradient:
+
+background-image: linear-gradient(--ALIGNMENT--,COLOR1,COLOR2,...);           //ALIGNMENT - TO TOP/TO BOTTOM/TO RIGHT/TO LEFT/TO BOTTOM RIGHT/45DEG 
