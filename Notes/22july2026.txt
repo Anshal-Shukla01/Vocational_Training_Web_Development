@@ -7,3 +7,7 @@ As we know the class styling is prioritised over global styling so to get global
 1.Linear Gradient:
 
 background-image: linear-gradient(--ALIGNMENT--,COLOR1,COLOR2,...);           //ALIGNMENT - TO TOP/TO BOTTOM/TO RIGHT/TO LEFT/TO BOTTOM RIGHT/45DEG 
+
+2.Repeating Linear Gradient:
+
+repeating-linear-gradient(color1,color2 %, color3 %,...)
