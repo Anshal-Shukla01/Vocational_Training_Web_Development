@@ -1,0 +1,2 @@
+#PRIORITY
+As we know the class styling is prioritised over global styling so to get global styling to be implemented !important is used after a space in the end of styling.
