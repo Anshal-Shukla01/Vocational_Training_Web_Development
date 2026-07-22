@@ -19,3 +19,9 @@ background-image: radial-gradient(color1,color2,... );
 4.Repeating Radial Gradient:
 
 repeating-linear-gradient(color1,color2 %, color3 %,...)
+
+5.Conic Gradient:
+
+background-image: conic-gradient(color1,color2,... );
+background-image: conic-gradient(from --angle--,color1,color2,... );        [Starts from specified Angle]   //angle - 90deg
+
