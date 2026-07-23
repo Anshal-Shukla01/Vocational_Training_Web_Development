@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    margin:auto;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     min-height: 100vh;
+
+        }
+    .Container{
+       
+    width:900px;
+    height:392px;
+    position:relative;
+    overflow:visible;
+}
+    .Envelope{
+        height: 392px;
+        width: 900px;
+        background-color: powderblue !important;
+        position:absolute;
+         z-index: 1;
+        perspective:1200px;
+        transition:transform 1s ease;
+        box-shadow:0 20px 35px rgba(0,0,0,.25);
+
+    }
+    .Flap{
+    width:0;
+    height:0;
+    border-left:450px solid transparent;
+    border-right:450px solid transparent;
+    border-top:196px solid #8ec9d6;
+
+    position:absolute;
+    top:0;
+    left:0;
+
+    z-index:3;
+
+    transform-origin:top center;
+    backface-visibility:hidden;
+    transform-style:preserve-3d;
+
+    transition:
+        transform 1s ease-in-out,
+        z-index 0s linear 1s;
+}
+    .Card{
+    position:absolute;
+    left:25px;
+    top:40px;          /* Starts hidden inside the envelope */
+
+    width:850px;
+    height:340px;
+
+    background-image:url("../Images/WeddingInvitation.png");
+    background-size:cover;
+    border-radius:10px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+    z-index:1;
+
+transition:transform .9s ease .9s;
+}
+ 
+ .Front{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:900px;
+    height:392px;
+    background:#a9dbe6;
+    z-index:2;
+    overflow:hidden;
+}
+.Front::before,
+.Front::after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:0;
+}
+
+.Front::before{
+    left:0;
+    bottom:0;
+
+    border-top:196px solid transparent;
+    border-bottom:250px solid transparent;
+    border-left:450px solid #96d0dbe5;
+}
+
+.Front::after{
+    right:0;
+    bottom:0;
+
+    border-top:196px solid transparent;
+    border-bottom:250px solid transparent;
+    border-right:450px solid #96cfdb;
+}
+.Container:hover .Flap{
+
+    transform:rotateX(185deg);
+}
+.Container:hover .Envelope{
+    transform:
+        translateY(50px)
+        scale(1.02);
+}
+
+.Container:hover .Card{
+    transform:
+        translateY(-400px)
+        scale(1.02);
+}
+    
+    </style>
+</head>
+<body>
+<div class="Container">
+
+    <div class="Envelope">
+
+        <div class="Card"></div>
+
+        <div class="Front"></div>
+
+        <div class="Flap"></div>
+
+    </div>
+
+</div>
+</body>
+</html>
