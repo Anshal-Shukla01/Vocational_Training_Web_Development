@@ -39,3 +39,7 @@ transform:rotateY(150deg);
 3.rotateZ
 
 transform:rotateZ(150deg);
+
+4.transition
+
+transition:width 2s;     (in div styling)
