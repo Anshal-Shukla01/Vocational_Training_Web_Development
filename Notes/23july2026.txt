@@ -1,3 +1,6 @@
+#TRANSITION
+
+
 #TRANSLATE
 
 transform: translate(50px,100px);    //Moves the div 50 pixels from x-axis & 100 pixels from y-axis
@@ -12,3 +15,14 @@ transform: scale(2,3);        //Scales Width by 2 times & Height  by 3 Times.
 transform: scale(0.5,0.3);    //Shrinks the div when  given value <1.
 transform: scalex(2);       
 transform: scaley(3);
+
+
+#SKEW
+
+transform:SkewX(20deg);
+transform:SkewY(20deg);
+transform:Skew(20deg,40deg);      
+
+#MATRIX
+
+transform:matrix(1,0.5,3,2,3,2)          //matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
