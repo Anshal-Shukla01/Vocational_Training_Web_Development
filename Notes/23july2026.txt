@@ -1,15 +1,14 @@
-#TRANSITION
+#2D TRANSFORM
 
-
-#TRANSLATE
+#1.TRANSLATE
 
 transform: translate(50px,100px);    //Moves the div 50 pixels from x-axis & 100 pixels from y-axis
 
-#ROTATE
+#2.ROTATE
 
 transform: rotate(20deg);         //Rotates 20 deg.
 
-#SCALE
+#3.SCALE
 
 transform: scale(2,3);        //Scales Width by 2 times & Height  by 3 Times.
 transform: scale(0.5,0.3);    //Shrinks the div when  given value <1.
@@ -17,12 +16,26 @@ transform: scalex(2);
 transform: scaley(3);
 
 
-#SKEW
+#4.SKEW
 
 transform:SkewX(20deg);
 transform:SkewY(20deg);
 transform:Skew(20deg,40deg);      
 
-#MATRIX
+#5.MATRIX
 
 transform:matrix(1,0.5,3,2,3,2)          //matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+
+#3D TRANSFORM
+
+#1.rotateX
+
+transform:rotateX(150deg);
+
+2.rotateY
+
+transform:rotateY(150deg);
+
+3.rotateZ
+
+transform:rotateZ(150deg);
