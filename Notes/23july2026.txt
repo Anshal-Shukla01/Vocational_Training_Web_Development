@@ -1,0 +1,3 @@
+#TRANSFORM 
+
+transform: translate(50px,100px);    //Moves the div 50 pixels from x-axis & 100 pixels from y-axis
