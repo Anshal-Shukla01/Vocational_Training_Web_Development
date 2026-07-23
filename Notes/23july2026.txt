@@ -44,3 +44,10 @@ transform:rotateZ(150deg);
 
 transition:width 2s;     (in div styling)
 transition:width 2s , height 3s;
+
+
+transition-timing-function: linear;
+    transition-timing-function: ease;      //Starts Fast and Ends Slowly
+     transition-timing-function: ease-in;     //Starts Fast Mid Slow & Ends Fast
+      transition-timing-function: ease-out;  //Stars Slow linear mid ENds Slowly
+       transition-timing-function:  ease-in-out;
