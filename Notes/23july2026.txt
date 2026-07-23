@@ -51,3 +51,8 @@ transition-timing-function: linear;
      transition-timing-function: ease-in;     //Starts Fast Mid Slow & Ends Fast
       transition-timing-function: ease-out;  //Stars Slow linear mid ENds Slowly
        transition-timing-function:  ease-in-out;
+
+
+
+
+Hw - Create a Emvelope with transition in which on hver - pops up the card sliding it out with a wish 
