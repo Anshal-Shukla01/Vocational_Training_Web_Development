@@ -9,3 +9,6 @@ transform: rotate(20deg);         //Rotates 20 deg.
 #SCALE
 
 transform: scale(2,3);        //Scales Width by 2 times & Height  by 3 Times.
+transform: scale(0.5,0.3);    //Shrinks the div when  given value <1.
+transform: scalex(2);       
+transform: scaley(3);
