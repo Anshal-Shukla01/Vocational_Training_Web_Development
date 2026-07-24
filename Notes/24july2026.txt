@@ -46,4 +46,30 @@ note- insert position : absolute in the div styling
 
             animation-iteration-count: 3;
             animation-iteration-count: infinte;
-            
+
+
+
+5.To Give animation directions\
+
+        .header1{
+            animation-timing-function: linear;
+        }
+        .header2{
+            animation-timing-function: ease;
+        }
+        .header3{
+            animation-timing-function: ease-in;
+        }
+        .header4{
+            animation-timing-function: ease-out;
+        }
+        .header5{
+            animation-timing-function:  ease-in-out;
+        }
+
+
+6.To Reverse the animation direction 
+ animation-direction: normal;
+ animation-direction: reverse;
+  animation-direction: alternate;
+   animation-direction: alternate-reverse;
