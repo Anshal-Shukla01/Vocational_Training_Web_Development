@@ -24,3 +24,26 @@ In Style only
             50%{background-color: greenyellow}
             100%{background-color: yellow;}
         }
+
+3.Making the DIv Move 
+
+
+note- insert position : absolute in the div styling
+
+@keyframes MyAnimation{
+            /* from {background-color: yellow;}
+            to {background-color: red;} */
+
+            0%{background-color: red;left:0px;top:0px;}
+            25%{background-color: blue;left:100px;top:0px;}
+            50%{background-color: greenyellow;left:100px;top:100px;}
+            100%{background-color: yellow;left:0px;top:100px;}
+        }
+        
+
+
+4.TO Repeat the animation multiple times we use this property 
+
+            animation-iteration-count: 3;
+            animation-iteration-count: infinte;
+            
