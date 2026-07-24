@@ -6,31 +6,57 @@
     <title>Document</title>
     <style>
         div{
-            width:300px;
-            height:300px;
+            width: 100px;
+            height:100px;
             background-color: aqua;
             animation-name:MyAnimation;
             animation-duration: 3s;
-            position: absolute;
+            position: relative;
             animation-iteration-count: 3;
-            animation-delay: 5s;
+            animation-delay: 2s;
         }
         @keyframes MyAnimation{
-            /* from {background-color: yellow;}
-            to {background-color: red;} */
+            from {background-color: yellow; left:0px;}
+            to {background-color: red;left:300px;}
 
-            0%{background-color: red;left:0px;top:0px;}
+            /* 0%{background-color: red;left:0px;top:0px;}
             25%{background-color: blue;left:100px;top:0px;}
             50%{background-color: greenyellow;left:100px;top:100px;}
             75%{background-color: yellow;left:0px;top:100px;}
-            100%{background-color: violet;left:0px;top:0px;}
+            100%{background-color: violet;left:0px;top:0px;} */
         }
-        
+         .header1{
+            animation-timing-function: linear;
+        }
+        .header2{
+            animation-timing-function: ease;
+        }
+        .header3{
+            animation-timing-function: ease-in;
+        }
+        .header4{
+            animation-timing-function: ease-out;
+        }
+        .header5{
+            animation-timing-function:  ease-in-out;
+        }
     </style>
 </head>
 <body>
-    <div>
-        hi
+    <div class="header1">
+       linear
+    </div>
+    <div class="header2">
+        ease
+    </div>
+    <div class="header3">
+        ease-in
+    </div>
+    <div class="header4">
+         ease-out
+    </div>
+    <div class="header5">
+        ease-in-out
     </div>
     
 </body>
