@@ -1,7 +1,10 @@
 #KEYFRAMES
-
+In Style only
 @keyframes  -animation-name-{
 
+    from {color }
+    to {color }
 
-    
+
+
 }
