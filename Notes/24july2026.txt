@@ -1,5 +1,9 @@
 #KEYFRAMES
+
+
 In Style only
+
+1.Using From To
 @keyframes  -animation-name-{
 
     from {color }
@@ -8,3 +12,15 @@ In Style only
 
 
 }
+
+2.USing %s
+
+ @keyframes -animation-name-{
+            /* from {background-color: yellow;}
+            to {background-color: red;} */
+
+            0%{background-color: red}
+            25%{background-color: blue}
+            50%{background-color: greenyellow}
+            100%{background-color: yellow;}
+        }
