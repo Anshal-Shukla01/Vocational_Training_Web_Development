@@ -15,3 +15,8 @@ OK so here I am adding the nodes which I have been learning by creating this pro
             
 
 3.  OK I got to know one more thing when I enter body relative I mean parent and the ball as the I mean for absolute positioning I face the problem that it was not being properly So it was better suggested that instead of working On body directly I would suggest to create a container which contains the overall elements in the website that's it thank you Which sizes like A width 100 VW and height 100VH.
+
+4. Another problem which I was facing while creating this was uh I was unable to add the animation but I forgot to add the duration of the animation Also I was by mistake adding it on the scene thinking of it as being done at the parent div But the animation details is provided the container which is performing the animation .
+
+5. I have the two approaches for the animation off the ball
+            - First by specifying at what percentage of the animation the ball will be at which position
