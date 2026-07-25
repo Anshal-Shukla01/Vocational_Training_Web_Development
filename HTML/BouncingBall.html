@@ -24,26 +24,28 @@
             animation-name:Bounce;
             animation-iteration-count: infinite;
             animation-duration: 5s;
-            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-timing-function: ease-out;
         }    
             @keyframes Bounce{
-
-             0%{top:50%;}
+            from{top:50%;}
+            to{top:30%;}
+             /* 0%{top:50%;}
             25%{top:40%;}
             50%{top:30%;}
             75%{top:40%;}
-            100%{top:50%;}
+            100%{top:50%;} */
             
         }
         
         .Ground{
             background-color: green;
-            height:500px;
-            width:100%;            /* Take 100% width of my parent */ 
+            height:50vh;             /*   Added 50 vh so that it cover half screen */
+            width:100vw;            /* Take 100% width of my parent */ 
          /* width:100vw;            "Take 100% width of the browser window." */
              position:absolute;
              transform: translateY(100px);
-            top:50%;
+             top:50%;
               
     
 
@@ -52,6 +54,7 @@
 </head>
 <body>
     <div class="Scene">
+        <div class="Sky"></div>
         <div class="Ball"></div>
         <div class="Ground"></div>
     </div>

@@ -19,4 +19,5 @@ OK so here I am adding the nodes which I have been learning by creating this pro
 4. Another problem which I was facing while creating this was uh I was unable to add the animation but I forgot to add the duration of the animation Also I was by mistake adding it on the scene thinking of it as being done at the parent div But the animation details is provided the container which is performing the animation .
 
 5. I have the two approaches for the animation off the ball
-            - First by specifying at what percentage of the animation the ball will be at which position
+            - First by specifying at what percentage of the animation the ball will be at which position.
+            - Second applying the alternate direction in the animation - direction 
