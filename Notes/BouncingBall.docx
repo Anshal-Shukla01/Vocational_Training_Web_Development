@@ -1,0 +1,17 @@
+OK so here I am adding the nodes which I have been learning by creating this project of bouncing ball .
+
+
+1.  Today I learned that Different styles of commenting is  used in HTML and CSS 
+        HTML uses <!--   -->
+        CSS uses /*    */
+
+
+2.  I was facing problem while centering a ball placing the ground is that I was using the display as flex which was wrong as it was centering everything So its alternate solution would be I use position only relative and absolute positioning.
+
+                display:flex;                   /* Enables Flexbox */
+                justify-content:center;         /* Centers horizontally */
+                align-items:center;             /* Centers vertically */
+
+            
+
+3.  OK I got to know one more thing when I enter body relative I mean parent and the ball as the I mean for absolute positioning I face the problem that it was not being properly So it was better suggested that instead of working On body directly I would suggest to create a container which contains the overall elements in the website that's it thank you Which sizes like A width 100 VW and height 100VH.

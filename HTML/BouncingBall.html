@@ -5,14 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bouncing Ball</title>
     <style>
-        /* body{display
-        } */
+        body{
+                margin:0;                   /* Removes default browser spacing */
+                height:100vh;               /* Makes body equal to viewport height */
+                position: relative;
+            }
         .Ball{
             background-color: Red;
             height: 100px;
             width: 100px;
             border-radius: 50%;
             position:absolute;  
+            top:50%;
+            left: 50%;
+    
+
+        }
+        .Ground{
+            background-color: brown;
+            height: 400px;
+            width:100%;            /* Take 100% width of my parent */ 
+         /* width:100vw;            "Take 100% width of the browser window." */
+              
     
 
         }
@@ -20,6 +34,8 @@
 </head>
 <body>
     <div class="Ball"></div>
+    <div class="Ground"></div>
+    
     
 </body>
 </html>
