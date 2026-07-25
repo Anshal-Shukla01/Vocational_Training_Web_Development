@@ -5,14 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bouncing Ball</title>
     <style>
+        body{
+            margin:0;                   /* Removes default browser spacing */
+            background-color: lightskyblue;
+        }
         .Scene{
-                margin:0;                   /* Removes default browser spacing */
+                
                 height:100vh;   
                 width:100vw;           /* "Take 100% width of the browser window."   */         
                 position: relative;
                 display: block;
+                top:80%;
                
             }
+        .Cloud{
+                height: 75px;
+                width: auto;
+                position: absolute;
+                animation-name:Flow;
+                animation-iteration-count: infinite;
+                animation-duration: 5s;
+                animation-direction: normal;
+                animation-timing-function: linear;
+            }
+        #Cloud1{
+            top:10%;
+            
+        }
+        #Cloud2{
+            top:20%;
+            animation-delay: 2s;
+
+        }
+        .Sky{
+            
+            height:50vh;
+            width:100vw;
+            background-image: linear-gradient(to top,LightSkyBlue,SkyBlue,DeepSkyBlue);
+            z-index: 0;
+            
+        }
+       
         .Ball{
             background-color: Red;
             height: 100px;
@@ -21,6 +54,7 @@
             position:absolute;  
             top:50%;
             left: 50%;
+            z-index: 1;
             animation-name:Bounce;
             animation-iteration-count: infinite;
             animation-duration: 5s;
@@ -35,6 +69,11 @@
             50%{top:30%;}
             75%{top:40%;}
             100%{top:50%;} */
+            
+        }
+        @keyframes Flow{
+            from{left:0%;}
+            to{left:100%}
             
         }
         
@@ -54,7 +93,10 @@
 </head>
 <body>
     <div class="Scene">
-        <div class="Sky"></div>
+        <div class="Sky">
+            <img class="Cloud"  id="Cloud1" src="../Images/cloud.png" alt="Cloud"/>
+            <img class="Cloud"  id="Cloud2" src="../Images/cloud.png" alt="Cloud"/>
+        </div>
         <div class="Ball"></div>
         <div class="Ground"></div>
     </div>
