@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bouncing Ball</title>
     <style>
+    body{
+background-color:pink;
+    }
+    
+
+    @media screen and (min-width: 480px){
+        
+       
         body{
             margin:0;                   /* Removes default browser spacing */
             background-color: lightskyblue;
@@ -24,7 +32,7 @@
                 position: absolute;
                 animation-name:Flow;
                 animation-iteration-count: infinite;
-                animation-duration: 5s;
+                animation-duration: 12s;
                 animation-direction: normal;
                 animation-timing-function: linear;
             }
@@ -86,9 +94,10 @@
              transform: translateY(100px);
              top:50%;
               
-    
 
         }
+
+    }    
     </style>
 </head>
 <body>
