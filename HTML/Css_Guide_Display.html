@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Display Visual Guide</title>
+
+<style>
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+    padding:30px;
+}
+
+section{
+    background:white;
+    padding:20px;
+    margin-bottom:35px;
+    border-radius:10px;
+    box-shadow:0 0 8px rgba(0,0,0,.15);
+}
+
+h2{
+    margin-top:0;
+}
+
+.demo{
+    border:2px dashed gray;
+    padding:15px;
+    margin-top:15px;
+}
+
+.box{
+    background:#4CAF50;
+    color:white;
+    padding:15px;
+    margin:5px;
+    text-align:center;
+}
+
+/* Block */
+.block .box{
+    display:block;
+}
+
+/* Inline */
+.inline .box{
+    display:inline;
+}
+
+/* Inline Block */
+.inlineblock .box{
+    display:inline-block;
+    width:100px;
+}
+
+/* Flex */
+.flex{
+    display:flex;
+}
+
+/* Inline Flex */
+.inlineflex{
+    display:inline-flex;
+    border:3px solid red;
+}
+
+/* Grid */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,100px);
+    gap:10px;
+}
+
+/* Inline Grid */
+.inlinegrid{
+    display:inline-grid;
+    grid-template-columns:repeat(2,100px);
+    gap:10px;
+    border:3px solid blue;
+}
+
+/* List Item */
+.list .box{
+    display:list-item;
+    margin-left:30px;
+}
+
+/* Table */
+.table{
+    display:table;
+}
+
+.table .row{
+    display:table-row;
+}
+
+.table .cell{
+    display:table-cell;
+    border:1px solid black;
+    padding:15px;
+    background:#4CAF50;
+    color:white;
+}
+
+/* Contents */
+.contents{
+    display:contents;
+}
+
+.flowroot{
+    display:flow-root;
+    border:2px solid black;
+}
+
+.floatbox{
+    float:left;
+    width:100px;
+    height:70px;
+    background:orange;
+    margin:5px;
+    text-align:center;
+    line-height:70px;
+    color:white;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>CSS Display Visual Guide</h1>
+
+<section>
+
+<h2>1. display: block</h2>
+<p>Each box starts on a new line.</p>
+
+<div class="demo block">
+<div class="box">Box 1</div>
+<div class="box">Box 2</div>
+<div class="box">Box 3</div>
+</div>
+
+</section>
+
+<section>
+
+<h2>2. display: inline</h2>
+<p>Boxes stay on the same line and ignore width & height.</p>
+
+<div class="demo inline">
+<span class="box">Box 1</span>
+<span class="box">Box 2</span>
+<span class="box">Box 3</span>
+</div>
+
+</section>
+
+<section>
+
+<h2>3. display: inline-block</h2>
+<p>Boxes stay in one line but keep width and height.</p>
+
+<div class="demo inlineblock">
+<div class="box">Box 1</div>
+<div class="box">Box 2</div>
+<div class="box">Box 3</div>
+</div>
+
+</section>
+
+<section>
+
+<h2>4. display: flex</h2>
+<p>Children are arranged in a row.</p>
+
+<div class="demo flex">
+<div class="box">Box 1</div>
+<div class="box">Box 2</div>
+<div class="box">Box 3</div>
+</div>
+
+</section>
+
+<section>
+
+<h2>5. display: inline-flex</h2>
+<p>Same as Flex, but the whole container behaves like inline.</p>
+
+<div class="demo">
+
+<div class="inlineflex">
+
+<div class="box">1</div>
+<div class="box">2</div>
+<div class="box">3</div>
+
+</div>
+
+Text continues here →
+
+</div>
+
+</section>
+
+<section>
+
+<h2>6. display: grid</h2>
+<p>Boxes arranged into rows and columns.</p>
+
+<div class="demo grid">
+
+<div class="box">1</div>
+<div class="box">2</div>
+<div class="box">3</div>
+<div class="box">4</div>
+<div class="box">5</div>
+<div class="box">6</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>7. display: inline-grid</h2>
+
+<div class="demo">
+
+<div class="inlinegrid">
+
+<div class="box">1</div>
+<div class="box">2</div>
+<div class="box">3</div>
+<div class="box">4</div>
+
+</div>
+
+Text continues here →
+
+</div>
+
+</section>
+
+<section>
+
+<h2>8. display: list-item</h2>
+
+<div class="demo list">
+
+<div class="box">Apple</div>
+<div class="box">Banana</div>
+<div class="box">Orange</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>9. display: table</h2>
+
+<div class="demo table">
+
+<div class="row">
+
+<div class="cell">A</div>
+<div class="cell">B</div>
+<div class="cell">C</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>10. display: contents</h2>
+
+<p>The parent disappears visually.</p>
+
+<div class="demo">
+
+<div class="contents">
+
+<div class="box">1</div>
+<div class="box">2</div>
+<div class="box">3</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>11. display: flow-root</h2>
+
+<p>Contains floated elements correctly.</p>
+
+<div class="demo flowroot">
+
+<div class="floatbox">Float</div>
+<div class="floatbox">Float</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
