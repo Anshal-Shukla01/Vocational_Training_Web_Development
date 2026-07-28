@@ -1,4 +1,13 @@
-How to add Icon in Website 
+1. How to add Icon in Website 
 
 
 HW- To add the height , width & Color
+
+2.Media Query
+
+
+Used @media(min-width:###) and (max-width:###){
+
+
+    
+}
