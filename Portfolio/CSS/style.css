@@ -47,6 +47,124 @@
 /* ============================
    GLOBAL STYLES
 ============================ */
+/* =========================================
+   MOBILE RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 768px) {
+
+    /* Navigation */
+
+    nav{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+        padding:20px;
+    }
+
+    nav h1{
+        font-size:2rem;
+    }
+
+    nav ul{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+        padding:0;
+    }
+
+    /* Hero Section */
+
+    .hero-container{
+
+        flex-direction:column-reverse;
+        text-align:center;
+        gap:40px;
+    }
+
+    .hero-content{
+
+        width:100%;
+        align-items:center;
+    }
+
+    .hero-content h2{
+
+        font-size:3rem;
+        line-height:1.2;
+    }
+
+    .hero-content h3{
+
+        font-size:1.5rem;
+    }
+
+    .hero-content p{
+
+        font-size:1rem;
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    /* Profile Image */
+
+    .image-wrapper{
+
+        width:100%;
+        display:flex;
+        justify-content:center;
+    }
+
+    .hero-image{
+
+        width:280px;
+        height:280px;
+    }
+
+    .hero-image img{
+
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+
+    /* Sections */
+
+    .section-container{
+
+        width:90%;
+    }
+
+    .skills-grid,
+    .projects-grid,
+    .certificate-grid{
+
+        grid-template-columns:1fr;
+    }
+
+    /* Contact */
+
+    .contact-info{
+
+        flex-direction:column;
+        gap:20px;
+    }
+
+    /* Footer */
+
+    footer{
+
+        text-align:center;
+        padding:20px;
+    }
+
+}
 /* ============================
    SECTION ANIMATION
 ============================ */
