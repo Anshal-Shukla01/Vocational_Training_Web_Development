@@ -418,14 +418,12 @@ nav ul li a::after{
 }
 .hero-buttons a:hover{
 
-    transform: translateY(-4px);
+    transform: translateY(-4px) scale(1.03);
+
+    box-shadow:0 15px 35px rgba(56,189,248,.25);
 
 }
-.hero-buttons a:hover{
-
-    transform: translateY(-4px);
-
-}
+    
 /* ============================
    SECTION LAYOUT
 ============================ */
@@ -532,7 +530,11 @@ nav ul li a::after{
 }
 .skill-card:hover{
 
-    transform: translateY(-8px);
+    transform: translateY(-10px) scale(1.02);
+
+box-shadow:
+    0 25px 60px rgba(0,0,0,.35),
+    0 0 30px rgba(56,189,248,.15);
 
     border-color: var(--primary-color);
 
@@ -607,7 +609,11 @@ nav ul li a::after{
 }
 .project-card:hover{
 
-    transform: translateY(-8px);
+    transform: translateY(-10px) scale(1.02);
+
+box-shadow:
+    0 25px 60px rgba(0,0,0,.35),
+    0 0 30px rgba(56,189,248,.15);
 
     border-color: var(--primary-color);
 
@@ -700,7 +706,11 @@ nav ul li a::after{
 }
 .certificate-card:hover{
 
-    transform:translateY(-8px);
+    transform: translateY(-10px) scale(1.02);
+
+box-shadow:
+    0 25px 60px rgba(0,0,0,.35),
+    0 0 30px rgba(56,189,248,.15);
 
     border-color:var(--primary-color);
 
