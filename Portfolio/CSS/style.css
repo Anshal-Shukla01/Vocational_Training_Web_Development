@@ -51,118 +51,315 @@
    MOBILE RESPONSIVE DESIGN
 ========================================= */
 
-@media (max-width: 768px) {
+/* ===========================================
+   RESPONSIVE DESIGN - MOBILE & SMALL TABLETS
+=========================================== */
 
-    /* Navigation */
+@media screen and (max-width:768px){
+
+    /* Global */
+
+    body{
+        overflow-x:hidden;
+    }
+
+    section{
+        padding:70px 6%;
+    }
+
+    .section-container{
+        width:100%;
+    }
+
+    .section-title{
+        text-align:center;
+        font-size:2rem;
+        margin-bottom:40px;
+    }
+
+    /* ================= NAVBAR ================= */
 
     nav{
-        display:flex;
+
         flex-direction:column;
+
+        justify-content:center;
+
         align-items:center;
-        gap:20px;
+
+        gap:18px;
+
         padding:20px;
+
     }
 
     nav h1{
+
         font-size:2rem;
+
+        text-align:center;
+
     }
 
     nav ul{
+
         display:flex;
+
         flex-wrap:wrap;
+
         justify-content:center;
+
+        align-items:center;
+
         gap:15px;
+
         list-style:none;
+
         padding:0;
+
     }
 
-    /* Hero Section */
+    nav ul li a{
+
+        font-size:0.95rem;
+
+    }
+
+    /* ================= HERO ================= */
+
+    #hero{
+
+        min-height:auto;
+
+        padding-top:60px;
+
+        padding-bottom:60px;
+
+    }
 
     .hero-container{
 
         flex-direction:column-reverse;
+
+        align-items:center;
+
         text-align:center;
+
         gap:40px;
+
     }
 
     .hero-content{
 
         width:100%;
-        align-items:center;
+
+    }
+
+    .hero-badge{
+
+        margin:0 auto 20px;
+
     }
 
     .hero-content h2{
 
-        font-size:3rem;
+        font-size:2.6rem;
+
         line-height:1.2;
+
     }
 
     .hero-content h3{
 
-        font-size:1.5rem;
+        font-size:1.2rem;
+
     }
 
     .hero-content p{
 
+        max-width:100%;
+
         font-size:1rem;
+
     }
 
     .hero-buttons{
 
         justify-content:center;
+
         flex-wrap:wrap;
+
+        gap:15px;
+
     }
 
-    /* Profile Image */
+    .hero-buttons a{
+
+        width:220px;
+
+    }
 
     .image-wrapper{
 
         width:100%;
+
         display:flex;
+
         justify-content:center;
+
     }
 
     .hero-image{
 
-        width:280px;
-        height:280px;
+        width:250px;
+
+        height:250px;
+
     }
 
     .hero-image img{
 
         width:100%;
+
         height:100%;
+
         object-fit:cover;
+
     }
 
-    /* Sections */
+    /* ================= ABOUT ================= */
 
-    .section-container{
+    .about-content{
 
-        width:90%;
+        text-align:center;
+
     }
 
-    .skills-grid,
-    .projects-grid,
-    .certificate-grid{
+    /* ================= SKILLS ================= */
+
+    .skills-grid{
+
+        display:grid;
 
         grid-template-columns:1fr;
+
+        gap:25px;
+
     }
 
-    /* Contact */
+    .skill-card{
+
+        width:100%;
+
+    }
+
+    /* ================= PROJECTS ================= */
+
+    .projects-grid{
+
+        display:grid;
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+    }
+
+    .project-card{
+
+        width:100%;
+
+    }
+
+    /* ================= CERTIFICATES ================= */
+
+    .certificate-grid{
+
+        display:grid;
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+    }
+
+    .certificate-card{
+
+        width:100%;
+
+    }
+
+    /* ================= CONTACT ================= */
 
     .contact-info{
 
+        display:flex;
+
         flex-direction:column;
+
         gap:20px;
+
     }
 
-    /* Footer */
+    .contact-item{
 
-    footer{
+        width:100%;
 
         text-align:center;
-        padding:20px;
+
+    }
+
+    /* ================= FOOTER ================= */
+
+    .footer-content{
+
+        text-align:center;
+
+    }
+
+}
+/* ===========================================
+   EXTRA SMALL DEVICES
+=========================================== */
+
+@media screen and (max-width:480px){
+
+    nav h1{
+
+        font-size:1.7rem;
+
+    }
+
+    .hero-content h2{
+
+        font-size:2.1rem;
+
+    }
+
+    .hero-content h3{
+
+        font-size:1rem;
+
+    }
+
+    .hero-content p{
+
+        font-size:0.95rem;
+
+    }
+
+    .hero-image{
+
+        width:200px;
+
+        height:200px;
+
+    }
+
+    .hero-buttons a{
+
+        width:100%;
+
     }
 
 }
