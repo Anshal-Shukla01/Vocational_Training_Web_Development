@@ -48,6 +48,60 @@
    GLOBAL STYLES
 ============================ */
 /* ============================
+   BACKGROUND GLOW
+============================ */
+
+.background-blur{
+
+    position: fixed;
+
+    width: 450px;
+
+    height: 450px;
+
+    border-radius: 50%;
+
+    filter: blur(120px);
+
+    z-index: -1;
+
+    animation: floatGlow 12s ease-in-out infinite alternate;
+
+}
+.blur-1{
+
+    top:-120px;
+
+    left:-120px;
+
+    background:rgba(56,189,248,.18);
+
+}
+.blur-2{
+
+    bottom:-120px;
+
+    right:-120px;
+
+    background:rgba(139,92,246,.18);
+
+}
+@keyframes floatGlow{
+
+    from{
+
+        transform:translateY(0px) translateX(0px);
+
+    }
+
+    to{
+
+        transform:translateY(40px) translateX(25px);
+
+    }
+
+}
+/* ============================
    NAVBAR
 ============================ */
 
