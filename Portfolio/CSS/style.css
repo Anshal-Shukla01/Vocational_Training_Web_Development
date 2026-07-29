@@ -559,6 +559,73 @@ nav ul li a::after{
     color: var(--primary-text);
 
 }
+/* ============================
+   CERTIFICATES
+============================ */
+
+.certificate-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
+.certificate-card{
+
+    background:var(--card-color);
+
+    border:1px solid var(--border-color);
+
+    border-radius:var(--radius);
+
+    padding:30px;
+
+    box-shadow:var(--shadow);
+
+    transition:
+        transform .3s ease,
+        border-color .3s ease;
+
+}
+.certificate-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--primary-color);
+
+}
+.certificate-card h3{
+
+    color:var(--primary-color);
+
+    margin-bottom:16px;
+
+    font-size:1.4rem;
+
+}
+.certificate-card p{
+
+    color:var(--secondary-text);
+
+    margin-bottom:24px;
+
+}
+.certificate-btn{
+
+    font-weight:600;
+
+    color:var(--primary-color);
+
+    transition:.3s ease;
+
+}
+.certificate-btn:hover{
+
+    color:var(--primary-text);
+
+}
 html{
     scroll-behavior: smooth;
 }
