@@ -695,6 +695,39 @@ nav ul li a::after{
     color: var(--primary-color);
 
 }
+/* ============================
+   FOOTER
+============================ */
+
+footer{
+
+    border-top:1px solid var(--border-color);
+
+    margin-top:80px;
+
+}
+
+.footer-content{
+
+    width:min(1200px,90%);
+
+    margin:0 auto;
+
+    padding:35px 0;
+
+    text-align:center;
+
+}
+
+.footer-content p{
+
+    color:var(--secondary-text);
+
+    margin:8px 0;
+
+    font-size:.95rem;
+
+}
 html{
     scroll-behavior: smooth;
 }
