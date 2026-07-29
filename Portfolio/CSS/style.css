@@ -736,7 +736,16 @@ body{
 
     font-family: "Poppins", sans-serif;
 
-    background: var(--background-color);
+    background:
+        radial-gradient(circle at top left,
+            rgba(56,189,248,0.12),
+            transparent 35%),
+
+        radial-gradient(circle at bottom right,
+            rgba(139,92,246,0.10),
+            transparent 35%),
+
+        var(--background-color);
 
     color: var(--primary-text);
 
