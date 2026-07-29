@@ -72,6 +72,7 @@
         flex-wrap:wrap;
         justify-content:center;
         gap:15px;
+        list-style:none;
         padding:0;
     }
 
@@ -281,6 +282,7 @@ nav ul{
     display:flex;
 
     gap:35px;
+    list-style:none;
 
 }
 nav h1{
@@ -304,7 +306,11 @@ nav ul li a{
 
     font-weight:500;
 
-    transition:0.3s ease;
+    color: var(--primary-text);
+
+    text-decoration: none;
+
+    transition: 0.3s ease;
 
 }
 nav ul li a:hover{
@@ -566,6 +572,8 @@ box-shadow:
     border-radius: 999px;
 
     font-weight: 600;
+
+    text-decoration: none;
 
     transition: all 0.3s ease;
 
